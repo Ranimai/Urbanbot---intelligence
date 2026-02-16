@@ -85,7 +85,7 @@ Trend visualization
 
 7️⃣ Citizen Complaint Analysis (NLP)
 
-<img src="assets/Complaints.png" width="1000">
+<img src="assets/Complaints.png" width="500">
 
 Sentiment classification
 Priority routing
@@ -121,6 +121,7 @@ AWS SES → Automated Alerts
 
 
 👩‍💻 Author
+
 
 Rani
 
