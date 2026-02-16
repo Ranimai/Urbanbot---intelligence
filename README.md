@@ -27,7 +27,8 @@ It integrates Computer Vision, Deep Learning, NLP, MySQL, and LLM-based analytic
 🧩 Core Modules
 1️⃣ Unified City Intelligence Dashboard
 Centralized command center displaying:
-<img src="assets/Unified dashboard.png" width="800">
+
+<img src="assets/Unified dashboard.png" width="1000">
 
 Accidents
 
@@ -47,7 +48,8 @@ Complaint sentiment
 
 
 2️⃣ Accident Detection System (YOLOv8)
-<img src="assets/Accident.png" width="800">
+
+<img src="assets/Accident.png" width="1000">
 
 Upload accident images
 
@@ -67,6 +69,7 @@ Alert triggering
 
 
 3️⃣ Road Damage Detection
+
 <img src="assets/Road damage.png" width="800">
 
 Pothole & crack detection
@@ -81,6 +84,7 @@ Maintenance planning support
 
 
 4️⃣ Crowd Density Monitoring (CNN)
+
 <img src="assets/Crowd.png" width="800">
 
 Crowd count estimation
@@ -93,6 +97,7 @@ Event monitoring support
 
 
 5️⃣ Traffic Congestion Forecasting (LSTM)
+
 <img src="assets/Traffic.png" width="1000">
 
 
@@ -111,6 +116,7 @@ Historical trend visualization with confidence intervals
 
 
 6️⃣ Air Quality Forecasting (LSTM / ARIMA)
+
 <img src="assets/Air quality.png" width="1000">
 
 Pollutant-based AQI prediction
@@ -125,7 +131,8 @@ Trend visualization
 
 
 7️⃣ Citizen Complaint Analysis (NLP)
-<img src="assets/Complaints.png" width="800">
+
+<img src="assets/Complaints.png" width="1000">
 
 Sentiment classification
 
@@ -139,7 +146,8 @@ Text-based issue categorization
 
 
 8️⃣ UrbanBot AI Chat Assistant (LLM + RAG)
-<img src="assets/Chatbot.png" width="800">
+
+<img src="assets/Chatbot.png" width="1000">
 
 Natural language database queries
 
