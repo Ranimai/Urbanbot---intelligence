@@ -85,7 +85,7 @@ Trend visualization
 
 7️⃣ Citizen Complaint Analysis (NLP)
 
-<img src="assets/Complaints.png" width="300">
+<img src="assets/Complaints.png" width="500">
 
 Sentiment classification
 Priority routing
