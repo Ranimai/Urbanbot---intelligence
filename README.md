@@ -42,7 +42,7 @@ Centralized command center displaying:
 
 3️⃣ Road Damage Detection
 
-<img src="assets/Road damage.png" width="800">
+<img src="assets/Road damage.png" width="1000">
 
 - Pothole & crack detection
 - Infrastructure severity tagging
@@ -51,7 +51,7 @@ Centralized command center displaying:
 
 4️⃣ Crowd Density Monitoring (CNN)
 
-<img src="assets/Crowd.png" width="800">
+<img src="assets/Crowd.png" width="1000">
 
 - Crowd count estimation
 - Congestion risk levels
@@ -82,7 +82,7 @@ Centralized command center displaying:
 
 7️⃣ Citizen Complaint Analysis (NLP)
 
-<img src="assets/Complaints.png" width="700">
+<img src="assets/Complaints.png" width="600">
 
 - Sentiment classification
 - Priority routing
