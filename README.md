@@ -33,7 +33,7 @@ Accidents
 
 
 Traffic congestion
-<img src="assets/Traffic.png" width="800">
+
 
 Crowd hotspots
 
@@ -93,7 +93,7 @@ Event monitoring support
 
 
 5️⃣ Traffic Congestion Forecasting (LSTM)
-<img src="assets/Traffic.png" width="800">
+<img src="assets/Traffic.png" width="1000">
 
 
 AI-powered traffic prediction system using Long Short-Term Memory (LSTM) networks to forecast congestion trends.
@@ -111,7 +111,7 @@ Historical trend visualization with confidence intervals
 
 
 6️⃣ Air Quality Forecasting (LSTM / ARIMA)
-<img src="assets/Air quality.png" width="800">
+<img src="assets/Air quality.png" width="1000">
 
 Pollutant-based AQI prediction
 
