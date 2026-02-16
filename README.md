@@ -30,7 +30,7 @@ Centralized command center displaying:
 
 
 Accidents
-
+<img src="assets/Unified dashboard.png" width="800">
 
 Traffic congestion
 
