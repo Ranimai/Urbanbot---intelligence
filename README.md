@@ -17,7 +17,7 @@ It integrates Computer Vision, Deep Learning, NLP, MySQL, and LLM-based analytic
 
 The system is fully deployed on an AWS EC2 cloud server and accessible via the public internet.
 
-🔴 Live Application: http://13.233.139.147:8501
+🔴 Live Application: http://15.206.163.60:8501
 
 The AI models run on a remote cloud server and perform real-time inference. No local installation is required — the application works directly from a browser.
 
