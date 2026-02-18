@@ -32,7 +32,7 @@ h1, h2 {
 """, unsafe_allow_html=True)
 
 # ---------------- HEADER ----------------
-profile_image = Image.open("assets/rani_profile.jpg")
+profile_image = Image.open("../assets/rani_profile.jpg")
 
 col1, col2 = st.columns([1, 3])
 
