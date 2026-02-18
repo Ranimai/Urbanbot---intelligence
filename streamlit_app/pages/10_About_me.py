@@ -1,142 +1,163 @@
+
+# Portfolio Updated Version
+
 import streamlit as st
+from PIL import Image
 
-st.set_page_config(page_title="About Me", layout="wide")
+st.set_page_config(
+    page_title="Ranimai K B | AI Engineer",
+    page_icon="🏙️",
+    layout="wide"
+)
 
-# ---------- Custom Styling ----------
+# ---------------- STYLE ----------------
 st.markdown("""
 <style>
 .stApp {
     background-color: #f4f6fb;
 }
 
-.section-card {
+.card {
     background: white;
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
     margin-bottom: 25px;
 }
 
-h2 {
+h1, h2 {
     color: #1f2937;
 }
-
-h4 {
-    color: #2563eb;
-}
-
 </style>
 """, unsafe_allow_html=True)
 
-st.title("👩‍💻 Rani — AI Engineer & Smart City Developer")
-st.caption("Building Intelligent Urban Systems with AI, ML & LLMs")
+# ---------------- HEADER ----------------
+profile_image = Image.open("rani_profile.jpg")
 
-# ---------- ABOUT ----------
+col1, col2 = st.columns([1, 3])
+
+with col1:
+    st.image(profile_image, width=220)
+
+with col2:
+    st.markdown("<h1>Ranimai K B</h1>", unsafe_allow_html=True)
+    st.markdown("<h4>AI Engineer | Smart City AI Developer</h4>", unsafe_allow_html=True)
+    st.write("""
+Building intelligent systems using Machine Learning, NLP, Computer Vision and Cloud Deployment.
+""")
+
+st.divider()
+
+# ---------------- PROFESSIONAL SUMMARY ----------------
 st.markdown("""
-<div class="section-card">
-<h2>👩 About Me</h2>
+<div class="card">
+<h2>Professional Summary</h2>
 
-I am an aspiring AI Engineer passionate about building real-world intelligent systems.  
-My focus is on Smart City solutions using Computer Vision, NLP, Forecasting, and LLM-powered decision support systems.
+Dedicated professional with 9 years of experience at Apollo Speciality Hospital, Madurai (2016 - 2025),
+where I developed strong coordination, analytical thinking and operational management skills.
 
-UrbanBot Intelligence is my full-stack AI platform designed to assist city administrators with:
-• Accident Detection  
-• Road Damage Monitoring  
-• Crowd Density Analysis  
-• Traffic Prediction  
-• AQI Forecasting  
-• NLP Complaint Classification  
-• RAG-powered LLM Decision Assistant  
+Transitioned into Artificial Intelligence and Data Science after completing advanced training,
+and successfully built multiple end-to-end Machine Learning systems.
 
-I enjoy transforming data into intelligent automation systems.
+Currently focused on building scalable AI solutions with cloud deployment architecture (AWS).
 </div>
 """, unsafe_allow_html=True)
 
-# ---------- EDUCATION ----------
+# ---------------- EDUCATION ----------------
 st.markdown("""
-<div class="section-card">
-<h2>🎓 Education</h2>
+<div class="card">
+<h2>Education</h2>
 
-• Bachelor & Master Degree in [B.Com.(C.A) & M.Com]  
-• Specialization in Artificial Intelligence & Machine Learning  
-• Completed Capstone Project: UrbanBot Intelligence  
+B.Com - Computer Application
 
-Focused on:
-- Deep Learning
-- Data Science
-- NLP
-- Time Series Forecasting
-- Cloud Deployment (AWS)
+Master of Commerce (M.Com)
+
+Specialization in Artificial Intelligence and Machine Learning  
+Completed multiple AI capstone projects with hands-on implementation.
 </div>
 """, unsafe_allow_html=True)
 
-# ---------- EXPERIENCE ----------
-st.markdown("""I have worked in Apollo Speciality Hospital as a Secretary on 2016 - 2025""")
-
-
-# ---------- SKILLS ----------
+# ---------------- EXPERIENCE ----------------
 st.markdown("""
-<div class="section-card">
-<h2>💻 Technical Skills</h2>
+<div class="card">
+<h2>Professional Experience</h2>
 
-🔹 Programming: Python  
-🔹 Frameworks: Streamlit, TensorFlow, Keras  
-🔹 Machine Learning: CNN, LSTM, ARIMA  
-🔹 NLP: TextBlob, VADER  
-🔹 Database: MySQL (RDS Ready)  
-🔹 Cloud: AWS (S3, RDS, EC2)  
-🔹 LLM Integration: GROQ API  
-🔹 Version Control: Git  
-🔹 Data Visualization: Plotly, Matplotlib  
+Apollo Speciality Hospital, Madurai  
+2016 - 2025
 
+- Managed administrative operations and coordination
+- Developed strong communication and documentation skills
+- Handled structured reporting and workflow systems
 </div>
 """, unsafe_allow_html=True)
 
-# ---------- PROJECT ----------
+# ---------------- TECHNICAL SKILLS ----------------
 st.markdown("""
-<div class="section-card">
-<h2>🚀 Featured Project — UrbanBot Intelligence</h2>
+<div class="card">
+<h2>Technical Skills</h2>
 
-An Enterprise-Style AI Smart City Platform integrating:
+Programming: Python  
 
-✔ Computer Vision (Accident, Crowd, Road Damage Detection)  
-✔ Traffic Forecasting (LSTM)  
-✔ AQI Forecasting (ARIMA)  
-✔ NLP Complaint Classification  
-✔ Unified Executive Dashboard  
-✔ RAG-Powered LLM Chatbot  
-✔ Email Alert Agent  
-✔ Report Generation Agent  
-✔ MySQL Database Integration  
-✔ AWS Deployment Architecture  
+Machine Learning:
+- CNN (Accident, Crowd, Road Damage Detection)
+- LSTM (Traffic Prediction)
+- ARIMA (AQI Forecasting)
+- NLP (Sentiment Analysis)
 
-This system provides real-time city analytics and AI-driven decision support.
+Frameworks and Tools:
+- Streamlit
+- TensorFlow / Keras
+- OpenCV
+- Pandas / NumPy
+
+Cloud:
+- AWS EC2
+- AWS RDS
+- AWS S3
+- Git and GitHub
 </div>
 """, unsafe_allow_html=True)
 
-# ---------- ACHIEVEMENTS ----------
+# ---------------- PROJECT PORTFOLIO ----------------
 st.markdown("""
-<div class="section-card">
-<h2>🏆 Achievements</h2>
+<div class="card">
+<h2>Capstone Project Portfolio</h2>
 
-• Developed end-to-end AI Smart City Platform  
-• Built Modular Enterprise-Level RAG Architecture  
-• Implemented AI Agents (Email, Report, SQL Agent)  
-• Integrated Multiple ML Models into Production Dashboard  
+Police Accu-Check System  
+Indian Agriculture Intelligence System  
+Multiple Disease Prediction System  
+AI Echo Smart Conversational Partner  
+Employee Attrition Analysis and Prediction  
 
-Continuously learning and building scalable AI systems.
+Final Enterprise Project:
+UrbanBot Intelligence - AI Powered Smart City Platform integrating
+Computer Vision, Forecasting, NLP, Cloud Deployment and LLM-based AI agents.
 </div>
 """, unsafe_allow_html=True)
 
-# ---------- CONTACT ----------
+# ---------------- PERSONAL ----------------
 st.markdown("""
-<div class="section-card">
-<h2>📧 Contact</h2>
+<div class="card">
+<h2>Personal Profile</h2>
 
-📩 Email: ranivika89@gmail.com 
-🔗 LinkedIn: https://linkedin.com/in/yourprofile  
-💻 GitHub: https://github.com/yourprofile  
-
-Capstone Project: Smart City AI Intelligence Platform / Data Scientist / ML Developer opportunities.
+Hockey Player - Strong teamwork and discipline mindset  
+Continuous Learner - Passionate about upgrading technical skills  
+Goal-Oriented - Focused on building production-ready AI systems
 </div>
 """, unsafe_allow_html=True)
+
+# ---------------- CAREER OBJECTIVE ----------------
+st.markdown("""
+<div class="card">
+<h2>Career Objective</h2>
+
+To secure a challenging role in AI / Data Science where I can apply
+technical expertise, analytical thinking and cloud deployment skills
+to contribute to real-world intelligent systems.
+</div>
+""", unsafe_allow_html=True)
+
+st.divider()
+st.caption("Ranimai K B | AI Engineer Portfolio | UrbanBot Intelligence")
+
+
