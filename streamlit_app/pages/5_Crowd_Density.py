@@ -20,7 +20,6 @@ from email.message import EmailMessage
 load_dotenv()
 
 # Config
-model_path = "models/crowd_cnn_model.h5"
 upload_dir = "uploads/crowd"
 img_size = (224, 224)
 
@@ -62,6 +61,7 @@ def send_email_alert(subject, body):
 # Load Model
 @st.cache_resource
 def load_crowd_model():
+    model_path = "models/crowd_cnn_model.h5"
     return load_model(model_path, compile=False)
 
 model = load_crowd_model()

@@ -14,7 +14,6 @@ from email.message import EmailMessage
 load_dotenv()
 
 # ================= CONFIG =================
-MODEL_PATH = "models/accident_yolov8_best.pt"
 UPLOAD_DIR = "uploads/accident"
 CONF_THRESHOLD = 0.25
 # ===========================================
@@ -96,6 +95,7 @@ with cam3:
 # ================= LOAD MODEL =================
 @st.cache_resource
 def load_model():
+    MODEL_PATH = "models/accident_yolov8_best.pt"
     return YOLO(MODEL_PATH)
 
 model = load_model()

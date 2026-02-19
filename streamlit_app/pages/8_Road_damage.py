@@ -13,7 +13,7 @@ load_dotenv()
 
 
 # ================= CONFIG =================
-MODEL_PATH = "models/road_damage_best.pt"
+
 UPLOAD_DIR = "uploads/road_damage"
 CONF_THRESHOLD = 0.25
 # ========================================
@@ -78,6 +78,7 @@ CITY_DATA = {
 # ================= LOAD MODEL =================
 @st.cache_resource
 def load_model():
+    MODEL_PATH = "models/road_damage_best.pt"
     return YOLO(MODEL_PATH)
 
 model = load_model()

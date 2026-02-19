@@ -26,7 +26,11 @@ st.set_page_config(
 st.title("🧠 Citizen Complaint AI")
 st.caption("Automated sentiment analysis & priority routing for smart cities")
 
-sia = SentimentIntensityAnalyzer()
+@st.cache_resource
+def load_sentiment_analyzer():
+    return SentimentIntensityAnalyzer()
+
+sia = load_sentiment_analyzer()
 
 
 

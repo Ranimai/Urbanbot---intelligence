@@ -12,7 +12,7 @@ from email.message import EmailMessage
 load_dotenv()
 
 # ================= CONFIG =================
-MODEL_PATH = "models/traffic_lstm_model.h5"
+
 
 # ================= DB CONNECTION =================
 def get_connection():
@@ -48,6 +48,7 @@ def send_email_alert(subject, body):
 # ================= LOAD MODEL =================
 @st.cache_resource
 def load_traffic_model():
+    MODEL_PATH = "models/traffic_lstm_model.h5"
     return load_model(MODEL_PATH, compile=False)
 
 model = load_traffic_model()
