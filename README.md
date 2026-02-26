@@ -18,7 +18,9 @@ It integrates Computer Vision, Deep Learning, NLP, MySQL, and LLM-based analytic
 The trained model (crowd_cnn_model.h5) is not included due to size limitations.
 
 Download it from:
-(https://drive.google.com/file/d/19jngwbxKpGuOCQyY_SajeBjOvN1VJ_gA/view?usp=drive_link)
+[Google Drive Model File](https://drive.google.com/file/d/19jngwbxKpGuOCQyY_SajeBjOvN1VJ_gA/view?usp=drive_link)
+
+
 🌐 Live Cloud Deployment
 
 The system is fully deployed on an AWS EC2 cloud server and accessible via the public internet.
