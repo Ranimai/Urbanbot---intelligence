@@ -25,7 +25,7 @@ Download it from:
 
 The system is fully deployed on an AWS EC2 cloud server and accessible via the public internet.
 
-🔴 Live Application: http://15.206.163.60:8501
+🔴 Live deployment available upon request.
 
 The AI models run on a remote cloud server and perform real-time inference. No local installation is required — the application works directly from a browser.
 
@@ -41,6 +41,12 @@ User Browser → Internet → AWS → S3 → RDS (MySQL DB) → EC2 Server → S
 - AQI trends
 - Complaint sentiment
 
+## 📊 Evaluation Metrics
+
+- mAP for object detection
+- RMSE / MAE for traffic and AQI forecasting
+- Accuracy / F1-score for sentiment classification
+- Real-time inference performance tracking
 
 1️⃣ Unified City Intelligence Dashboard
 Centralized command center displaying:
@@ -139,7 +145,7 @@ AWS SES → Automated Alerts
 👩‍💻 Author
 
 
-Rani
+**Ranimai K B**
 
 AI Engineer | Smart City Analytics | Computer Vision | NLP | Cloud Deployment
-
+https://www.linkedin.com/in/ranimai-k-b-742092369/
